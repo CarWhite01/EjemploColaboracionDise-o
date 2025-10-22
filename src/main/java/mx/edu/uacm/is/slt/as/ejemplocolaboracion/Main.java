@@ -11,6 +11,10 @@ package mx.edu.uacm.is.slt.as.ejemplocolaboracion;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ControladorB contb = new ControladorB();
+        contb.evento();
+        
+        
+       
     }
 }
