@@ -8,9 +8,13 @@ package mx.edu.uacm.is.slt.as.ejemplocolaboracion;
  *
  * @author nachintoch
  */
-public class EjemploColaboracion {
+public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ControladorA controladorA = new ControladorA();
+        controladorA.evento();
+        
+        ControladorB contb = new ControladorB();
+        contb.evento();
     }
 }
